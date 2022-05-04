@@ -1,0 +1,47 @@
+* {
+    font-family: Outfit;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    float: left;
+}
+
+.card {
+    width: 230px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: fit-content;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.card p {
+    text-align: center;
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 12px;
+}
