@@ -27,6 +27,7 @@ body {
     bottom: 0;
     top: 0;
     height: fit-content;
+    transform: scale(1.19);
 }
 
 .card h2 {
